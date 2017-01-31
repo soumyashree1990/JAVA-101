@@ -1,12 +1,17 @@
 package in.co.india.odisha.learnjava.learnstring;
 
 /**
- * Created by personal on 25-01-2017.
+ * Returns the reverse of a string.
+ * It is designed using only strings.
+ *
+ * @param input A string input that we need to reverse
+ * @return the reversed string
  */
 import java.io.*;
 //Nameing  convention ReverseString
 public class Reversestring {
 
+    String s;
     public static void main(String[] args) {
         String a=("Soumyashree is a good girl");
         String b=reverse(a);

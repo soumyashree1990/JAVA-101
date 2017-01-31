@@ -1,0 +1,14 @@
+THEORY
+-------------------------
+
+- http://www.javatpoint.com/java-oops-concepts
+- http://www.javatpoint.com/java-naming-conventions
+
+
+PRACTICAL
+--------------------------
+
+- Understand Maven Concepts
+    # dependency management
+    # project lifecycle management
+- How to use JUnit
