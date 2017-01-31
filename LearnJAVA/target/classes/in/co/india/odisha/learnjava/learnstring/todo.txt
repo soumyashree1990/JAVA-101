@@ -1,0 +1,20 @@
+
+//string
+reverse
+
+trim
+
+uppercase to lowercase
+
+
+//use arrays
+1. input = "soumyashree swain"  output= "Soumyashree Swain
+answer : use tokenize method if exists
+
+
+
+2.  input = kal ho na ho   ouptu : KHNH
+    i/p : Kabhi khusi kabhi gham o/p : K3G
+    i/p : kuch kuch hota hai o/p : K2H2
+
+
