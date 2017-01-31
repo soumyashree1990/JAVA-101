@@ -1,0 +1,11 @@
+https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html
+
+
+ProjectName (intelliJ maven project for java )
+ - src
+    -main
+        -java (sources root)
+        -resources (resources root)
+    -test
+        -java (test sources root)
+        -resources (test resources root)

@@ -2,11 +2,54 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <!-- This specifies which version of POM we are using
+    -->
     <modelVersion>4.0.0</modelVersion>
 
+
+    <!-- groupId : package name (company + team_name)
+         artifactId: the project name
+         version: the current version of the project
+    -->
     <groupId>in.co.india.odisha.learnjava</groupId>
     <artifactId>learnjava</artifactId>
     <version>1.0-SNAPSHOT</version>
+
+
+    <!-- here the dependencies that we need for this project is added
+
+         The dependencies can be found at https://mvnrepository.com/
+         (an UI to look for dependencies)
+
+         Below are a list of repositories
+         https://repo1.maven.org/maven2/
+
+    -->
+    <dependencies>
+
+    </dependencies>
+
+
+    <build>
+       <!--
+        don't read this now.
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>attach-javadocs</id>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+        -->
+    </build>
 
 
 </project>
