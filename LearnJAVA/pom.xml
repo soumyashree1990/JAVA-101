@@ -20,20 +20,26 @@
     <!-- here the dependencies that we need for this project is added
 
          The dependencies can be found at https://mvnrepository.com/
-         (an UI to look for dependencies)
+         (an UI to look for dependencies package name and artifactid details)
 
-         Below are a list of repositories
+         Below are a list of repositories where all the jars are available
          https://repo1.maven.org/maven2/
 
     -->
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/junit/junit -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+        </dependency>
 
     </dependencies>
 
 
     <build>
        <!--
-        don't read this now.
+        don't read this now. -->
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -48,7 +54,6 @@
                 </executions>
             </plugin>
         </plugins>
-        -->
     </build>
 
 
