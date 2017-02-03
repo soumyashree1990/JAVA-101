@@ -1,13 +1,15 @@
 package in.co.india.odisha.learnjava.learnstring;
 
+import in.co.india.odisha.learnjava.oops.IArrayOperation;
+
 import java.util.StringTokenizer;
 
 /**
  * Created by personal on 31-01-2017.
  */
-public class FirstLetterOutput {
+public class FirstLetterOutput implements IFirstLetterOutput{
     String a;
-     String firstLetterOutput(String input){
+     public String firstLetterOutput(String input){
         StringTokenizer m= new StringTokenizer(input," ");
         String output="";
         String temp="";

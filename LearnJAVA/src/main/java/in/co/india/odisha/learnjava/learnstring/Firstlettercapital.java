@@ -5,9 +5,9 @@ package in.co.india.odisha.learnjava.learnstring;
  */
 import java.util.StringTokenizer;
 
-public class Firstlettercapital {
+public class Firstlettercapital implements IFirstlettercapital{
     String a;
-    String firstLetterCapital(String input){
+    public String firstLetterCapital(String input){
         StringTokenizer st = new StringTokenizer(input," ");
         String output ="";
         String temp = "";
@@ -29,5 +29,6 @@ public class Firstlettercapital {
         f.a = "soumyashree i love you so mch hottie";
         String res = f.firstLetterCapital(f.a);
         System.out.println(res);
+
     }
 }
