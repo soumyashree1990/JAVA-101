@@ -13,6 +13,6 @@ public class TestFirstLetterOutput {
         f.a = "Kal Ho Na Ho";
         String expected="KHNH";
         String c = f.firstLetterOutput(f.a);
-        assertSame(expected,c);
+        assertEquals(expected,c);
     }
 }

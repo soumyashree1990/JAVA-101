@@ -14,8 +14,8 @@ public class TestFirstlettercapital {
     public void firstLetterCapital(){
         f.a = "soumyashree i love you so mch hottie";
         String res = f.firstLetterCapital(f.a);
-        String expected="Soumyashree I Love You So Mch Hottie";
-        assertSame(expected,res);
+        String expected="Soumyashree I Love You So Mch Hottie ";
+        assertEquals(expected,res);
     }
 
 
