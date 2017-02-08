@@ -1,16 +1,4 @@
-*.class
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.ear
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-
-#intelliJ files
+**/target/
+**/.idea/
+LearnJAVA/.idea/compiler.xml,LearnJAVA/.idea/libraries/Maven__junit_junit_4_12.xml,LearnJAVA/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml,LearnJAVA/.idea/misc.xml,LearnJAVA/.idea/modules.xml,LearnJAVA/.idea/vcs.xml,LearnJAVA/.idea/workspace.xml
 *.iml
-**/.idea
