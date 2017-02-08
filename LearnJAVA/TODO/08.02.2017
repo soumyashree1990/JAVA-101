@@ -1,0 +1,41 @@
+THEORY
+--------
+Collection Framework
+
+
+PRACTICAL
+----------
+Doubts??
+Introduction to webservices
+
+
+
+What we have learnt So far??
+
+HomeWork
+------------
+Create a maven Project
+-----------------
+1.
+groupId: za.co.reverside.api
+artifactId: calculator
+version: 1.0
+
+2.
+Interface Name : Calculator
+Class Name : CalculatorImpl
+
+Create A Calculator interface with below methods
+- int Add(int, int)
+- int Sub(int, int)
+- int Mul(int, int)
+- int Div(int, int)
+
+3.
+
+Create JUnit tests for all.
+
+4.
+
+Install using maven and check in your local
+.m2 folder that the jar file exists.
