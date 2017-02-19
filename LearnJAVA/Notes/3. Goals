@@ -1,6 +1,6 @@
 Architechture (Microservice/SOA etc)
-  - Frameworks (Spring, .NET)
-    - APIs (JUnit,JaxP,JaxB)
+  - Frameworks (Spring, .NET)  Easy to use predefined functionality
+    - APIs (JUnit,JaxP,JaxB)   Exposed interfaces
         - Languages (C++, JAVA etc)
 
 

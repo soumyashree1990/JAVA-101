@@ -13,12 +13,12 @@ public class Unmarshalling {
 
             try {
 
-                File file = new File("C:\\file.xml");
-                JAXBContext jaxbContext = JAXBContext.newInstance(Customer.class);
+                File file = new File("C:\\Users\\personal\\Documents\\JAVA-101\\LearnJAVA\\fileexample.xml");
+                JAXBContext jaxbContext = JAXBContext.newInstance(Garden.class);
 
                 Unmarshaller jaxbUnmarshaller = jaxbContext.createUnmarshaller();
-                Customer customer = (Customer) jaxbUnmarshaller.unmarshal(file);
-                System.out.println(customer);
+                Garden garden= (Garden) jaxbUnmarshaller.unmarshal(file);
+                garden.printString();
 
             } catch (JAXBException e) {
                 e.printStackTrace();
