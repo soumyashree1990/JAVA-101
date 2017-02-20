@@ -4,7 +4,7 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
-  <listener>
+ <!-- <listener>
     <listener-class>
       com.sun.xml.ws.transport.http.servlet.WSServletContextListener
     </listener-class>
@@ -22,5 +22,5 @@
   </servlet-mapping>
   <session-config>
     <session-timeout>120</session-timeout>
-  </session-config>
+  </session-config>-->
 </web-app>
