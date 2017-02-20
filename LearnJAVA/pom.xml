@@ -19,6 +19,7 @@
     <modules>
         <module>SpringBoot</module>
         <module>JavaBasics</module>
+        <module>JAXWSHelloWorld</module>
     </modules>
 
 
@@ -43,9 +44,7 @@
 
 
     <build>
-       <!--
-        don't read this now. -->
-        <plugins>
+        <!--<plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-javadoc-plugin</artifactId>
@@ -58,7 +57,7 @@
                     </execution>
                 </executions>
             </plugin>
-        </plugins>
+        </plugins>-->
     </build>
 
 

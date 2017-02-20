@@ -1,0 +1,31 @@
+website used to generate xsd:
+-----------------------------
+
+http://www.freeformatter.com/xsd-generator.html#ad-output
+
+
+Maven Project structure for WAR file
+-------------------------------------
+|-- pom.xml
+ `-- src
+     `-- main
+         |-- java
+         |   `-- com
+         |       `-- example
+         |           `-- projects
+         |               `-- SampleAction.java
+         |-- resources
+         |   `-- images
+         |       `-- sampleimage.jpg
+         `-- webapp
+             |-- WEB-INF
+             |   `-- web.xml
+             |-- index.jsp
+
+
+Objective
+----------
+Create a webapplication with a webservice and deploy it to a tomcat server
+webservice should be accessible at :
+http://localhost:8080/JAXWSHelloWorld/getEmployee?wsdl
+

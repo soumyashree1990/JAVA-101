@@ -1,0 +1,22 @@
+In software and systems engineering, a use case is a list of actions or event steps, typically defining the interactions between a role (known in the Unified Modeling Language as an actor) and a system, to achieve a goal. The actor can be a human or other external system.
+
+Usecase for this process
+-------------------------
+
+We have to design a webservice where we will send an employee "name" and we will get back all the details of the employee
+
+input
+------
+<Employee xmlns="http://springboot.odisha.india.co.in/getemployees">
+  <id>5</id>
+<Employee>
+
+
+ouput(hardcoded)
+------
+<Employee xmlns="http://springboot.odisha.india.co.in/getemployees">
+  <id>5</id>
+  <firstName>soumya</firstName>
+  <lastName>pattanaik</lastName>
+  <address>india</address>
+<Employee>

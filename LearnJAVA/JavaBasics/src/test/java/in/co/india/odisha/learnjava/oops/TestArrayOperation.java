@@ -1,6 +1,5 @@
 package in.co.india.odisha.learnjava.oops;
 
-import in.co.india.odisha.learnjava.Array;
 import org.junit.Assert;
 import org.junit.Test;
 
