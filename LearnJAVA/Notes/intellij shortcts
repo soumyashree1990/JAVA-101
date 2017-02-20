@@ -1,1 +1,5 @@
-ctrl+alt+s
+ctrl+alt+s : settings
+ctrl+space : auto complete
+tab : shortcut complete (sout+tab, psvm+tab etc)
+alt+enter : error fix suggestions
+
