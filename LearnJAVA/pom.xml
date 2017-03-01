@@ -20,6 +20,10 @@
         <module>SpringBoot</module>
         <module>JavaBasics</module>
         <module>JAXWSHelloWorld</module>
+        <module>DeleteWebapp</module>
+        <module>Dominos</module>
+        <module>Dominos</module>
+        <module>JAXRS</module>
     </modules>
 
 

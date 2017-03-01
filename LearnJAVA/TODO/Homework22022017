@@ -1,0 +1,17 @@
+Scenario
+---------
+build a webservice for Dominos to register a member in their portal
+
+<Member>
+ <FirstName></FirstNmae>
+ <LastNmae></LastName>
+ <MembershipId></MembershipId>
+ <EmailId></EmailId>
+ <Phone></Phoneno>
+</Person>
+
+<Confirmation>
+ <Username></Username>
+ <Password></Password>
+ <IsSuccess>true</IsSuccess>
+</Confirmation>

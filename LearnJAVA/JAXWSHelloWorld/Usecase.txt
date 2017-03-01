@@ -29,3 +29,5 @@ Create a webapplication with a webservice and deploy it to a tomcat server
 webservice should be accessible at :
 http://localhost:8080/JAXWSHelloWorld/getEmployee?wsdl
 
+
+https://www.mkyong.com/webservices/jax-ws/deploy-jax-ws-web-services-on-tomcat/

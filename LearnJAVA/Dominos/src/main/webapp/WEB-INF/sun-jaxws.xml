@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<endpoints
+        xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime"
+        version="2.0">
+    <endpoint
+            name="GetConfirmationws"
+            implementation="in.co.india.odisha.learnjava.dominos.service.GetConfirmation"
+            url-pattern="/getConfirmation"/>
+</endpoints>
